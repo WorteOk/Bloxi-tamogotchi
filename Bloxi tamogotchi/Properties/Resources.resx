@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="calm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\calm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tansed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tansed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="foresinght" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\foresinght.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cool" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cool.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="insult" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\insult.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="evade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\evade.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="questioner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\questioner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smil.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="error" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\error.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="offended" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\offended.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="puke" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\puke.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="radid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\radid.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="restrain" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\restrain.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="X2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\X2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="hit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hit.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hit1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hit1.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hit2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hit2.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hit3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hit3.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="hit4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\hit4.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="BAM" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BAM.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comfort" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comfort.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="comfort1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\comfort1.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chem.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="chtosh ya ubil cogo ti hotel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\chtosh ya ubil cogo ti hotel.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="eto cshe vseo ravno gribi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eto cshe vseo ravno gribi.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="eto pravda ili net" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eto pravda ili net.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="gribi vkusnye mne oni vsegda nrav" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gribi vkusnye mne oni vsegda nrav.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="iiiirrrri kakoy ti serezney" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\iiiirrrri kakoy ti serezney.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="KAKOY NE PONYATNIY YA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\KAKOY NE PONYATNIY YA.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="MMMMMMM YA TOKOY VKUSNEEY" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MMMMMMM YA TOKOY VKUSNEEY.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="mNE PONRAVILOS ETO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mNE PONRAVILOS ETO.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nakonec-to" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nakonec-to.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ne dumayou chto eto original" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ne dumayou chto eto original.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ne nado menya oskorblyat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ne nado menya oskorblyat.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ne original" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ne original.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ne trogay menya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ne trogay menya.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="noo ladno spasibo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\noo ladno spasibo.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="nu vsyo ya obidilsya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nu vsyo ya obidilsya.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="oKEy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\oKEy.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="poshaluy syem eto okno" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\poshaluy syem eto okno.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="rrrrrrrrrr kakoy ya bezvcusny" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rrrrrrrrrr kakoy ya bezvcusny.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="RRRRRRRRRRRRAWEIOGJWAEOIRMSWAJRENGV;ajwegvbweeeeeeeeeeeeeRRRRRRRRRRVHPHPHPH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>"..\Resources\RRRRRRRRRRRRAWEIOGJWAEOIRMSWAJRENGV;ajwegvbweeeeeeeeeeeeeRRRRRRRRRRVHPHPHPH.wav";System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Takoe sebe konecho" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Takoe sebe konecho.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ti chto geniy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ti chto geniy.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ti loh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ti loh.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ya budu rad sdelat eto" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ya budu rad sdelat eto.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ya mogu tebya ubit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ya mogu tebya ubit.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ya ne takoy takoy zhem ti zastavil menya est sebya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ya ne takoy takoy zhem ti zastavil menya est sebya.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    <comment>dsasd</comment>
+  </data>
+  <data name="v4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v8" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v9" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v10" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\10.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\11.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\12.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\13.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v14" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\14.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v15" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\15.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v17" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\17.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v18" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\19.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\20.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v21" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\21.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\22.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v23" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\23.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\24.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v25" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\25.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v26" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\26.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v27" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\27.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v28" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\28.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v29" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\29.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\30.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v31" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\31.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\32.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v33" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\33.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v34" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\34.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v35" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\35.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v36" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\36.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\37.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v38" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\38.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v39" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\39.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v40" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\40.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v41" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\41.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v42" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\42.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v43" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\43.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v44" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\44.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v45" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\45.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v46" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\46.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v47" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\47.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\48.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v49" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\49.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="v50" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\50.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="NOO VSE YA OBIDELSYA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NOO VSE YA OBIDELSYA.wav;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

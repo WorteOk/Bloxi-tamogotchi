@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C2C456A0-4EBF-4D4D-8F8F-B5AD73A79D4A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Bloxi_tamogotchi</RootNamespace>
+    <AssemblyName>Bloxi tamogotchi</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>box.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cool.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\evade.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\foresinght.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insult.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\offended.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\puke.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\questioner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\radid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restrain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\smil.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tansed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\X2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Sound\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="box.ico" />
+    <Content Include="Properties\hit.wav" />
+    <Content Include="Resources\1.wav" />
+    <Content Include="Resources\10.wav" />
+    <Content Include="Resources\11.wav" />
+    <Content Include="Resources\12.wav" />
+    <Content Include="Resources\13.wav" />
+    <Content Include="Resources\14.wav" />
+    <Content Include="Resources\15.wav" />
+    <Content Include="Resources\16.wav" />
+    <Content Include="Resources\17.wav" />
+    <Content Include="Resources\18.wav" />
+    <Content Include="Resources\19.wav" />
+    <Content Include="Resources\2.wav" />
+    <Content Include="Resources\20.wav" />
+    <Content Include="Resources\21.wav" />
+    <Content Include="Resources\22.wav" />
+    <Content Include="Resources\23.wav" />
+    <Content Include="Resources\24.wav" />
+    <Content Include="Resources\25.wav" />
+    <Content Include="Resources\26.wav" />
+    <Content Include="Resources\27.wav" />
+    <Content Include="Resources\28.wav" />
+    <Content Include="Resources\29.wav" />
+    <Content Include="Resources\3.wav" />
+    <Content Include="Resources\30.wav" />
+    <Content Include="Resources\31.wav" />
+    <Content Include="Resources\32.wav" />
+    <Content Include="Resources\33.wav" />
+    <Content Include="Resources\34.wav" />
+    <Content Include="Resources\35.wav" />
+    <Content Include="Resources\36.wav" />
+    <Content Include="Resources\37.wav" />
+    <Content Include="Resources\38.wav" />
+    <Content Include="Resources\39.wav" />
+    <Content Include="Resources\4.wav" />
+    <Content Include="Resources\40.wav" />
+    <Content Include="Resources\41.wav" />
+    <Content Include="Resources\42.wav" />
+    <Content Include="Resources\43.wav" />
+    <Content Include="Resources\44.wav" />
+    <Content Include="Resources\45.wav" />
+    <Content Include="Resources\46.wav" />
+    <Content Include="Resources\47.wav" />
+    <Content Include="Resources\48.wav" />
+    <Content Include="Resources\49.wav" />
+    <Content Include="Resources\5.wav" />
+    <Content Include="Resources\50.wav" />
+    <Content Include="Resources\6.wav" />
+    <Content Include="Resources\7.wav" />
+    <Content Include="Resources\8.wav" />
+    <Content Include="Resources\9.wav" />
+    <Content Include="Resources\BAM.wav" />
+    <Content Include="Resources\box.ico" />
+    <Content Include="Resources\chem.wav" />
+    <Content Include="Resources\chtosh ya ubil cogo ti hotel.wav" />
+    <Content Include="Resources\comfort.wav" />
+    <Content Include="Resources\comfort1.wav" />
+    <Content Include="Resources\eto cshe vseo ravno gribi.wav" />
+    <Content Include="Resources\eto pravda ili net.wav" />
+    <Content Include="Resources\gribi vkusnye mne oni vsegda nrav.wav" />
+    <Content Include="Resources\hit.wav" />
+    <Content Include="Resources\hit1.wav" />
+    <Content Include="Resources\hit2.wav" />
+    <Content Include="Resources\hit3.wav" />
+    <Content Include="Resources\hit4.wav" />
+    <Content Include="Resources\iiiirrrri kakoy ti serezney.wav" />
+    <Content Include="Resources\KAKOY NE PONYATNIY YA.wav" />
+    <Content Include="Resources\MMMMMMM YA TOKOY VKUSNEEY.wav" />
+    <Content Include="Resources\mNE PONRAVILOS ETO.wav" />
+    <Content Include="Resources\nakonec-to.wav" />
+    <Content Include="Resources\ne dumayou chto eto original.wav" />
+    <Content Include="Resources\ne nado menya oskorblyat.wav" />
+    <Content Include="Resources\ne original.wav" />
+    <Content Include="Resources\ne trogay menya.wav" />
+    <Content Include="Resources\noo ladno spasibo.wav" />
+    <Content Include="Resources\NOO VSE YA OBIDELSYA.wav" />
+    <Content Include="Resources\nu vsyo ya obidilsya.wav" />
+    <Content Include="Resources\oKEy.wav" />
+    <Content Include="Resources\poshaluy syem eto okno.wav" />
+    <Content Include="Resources\rrrrrrrrrr kakoy ya bezvcusny.wav" />
+    <Content Include="Resources\RRRRRRRRRRRRAWEIOGJWAEOIRMSWAJRENGV%3bajwegvbweeeeeeeeeeeeeRRRRRRRRRRVHPHPHPH.wav" />
+    <Content Include="Resources\Takoe sebe konecho.wav" />
+    <Content Include="Resources\ti chto geniy.wav" />
+    <Content Include="Resources\ti loh.wav" />
+    <Content Include="Resources\ya budu rad sdelat eto.wav" />
+    <Content Include="Resources\ya mogu tebya ubit.wav" />
+    <Content Include="Resources\ya ne takoy takoy zhem ti zastavil menya est sebya.wav" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
